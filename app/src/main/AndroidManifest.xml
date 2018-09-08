@@ -2,6 +2,8 @@
 <manifest package="com.londonappbrewery.bitcointicker"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Add App permission requests for Android devices -->
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
